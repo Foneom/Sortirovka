@@ -1,1 +1,1 @@
-# Sortirovka
+# Учебный проект Sortirovka
