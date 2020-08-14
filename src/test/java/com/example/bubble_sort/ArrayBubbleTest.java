@@ -19,6 +19,7 @@ public class ArrayBubbleTest {
         int[] expected = arrayBubble.display();
         assertThat(expected, is(result));
     }
+
     /**
      * Проверка метода поиска по индексу
      */

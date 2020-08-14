@@ -1,10 +1,10 @@
 package com.example.bubble_sort;
 
 import java.util.Arrays;
-import java.util.jar.JarOutputStream;
 
 /**
  * Данный класс демонcтрирует "Пузырьковый" способ сортировки массива
+ *
  * @author foneom
  * @version 0.1
  * @since 12.08.2020
@@ -42,6 +42,7 @@ public class ArrayBubble {
 
     /**
      * Метод вывода в консоль всех элементов массива
+     *
      * @return
      */
     public int[] display() {
@@ -91,6 +92,7 @@ public class ArrayBubble {
         }
     }
 }
+
 class TestArrayBubble {
     public static void main(String[] args) {
         ArrayBubble array = new ArrayBubble(4);
