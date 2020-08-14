@@ -15,9 +15,9 @@ after_success:
 notifications:
   email:
     recipients:
-      -mugoloka@gmail.com
+      - mugoloka@gmail.com
     on_success: never # default: change
-    on_failure: always # defa,ult: always
+    on_failure: always # default: always
     env:
       global:
   - CODECOV_TOKEN="0933b4af-764e-4676-a9a4-982635344f61"
